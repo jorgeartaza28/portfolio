@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome to my Portfolio</title>
+  </head>
+  <body>
+    <header class="index-header">
+      <a href="index.html" class="pic-link"
+        ><img src="logo/logo.png" alt="" class="pic"
+      /></a>
+      <section class="container">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </section>
+      <nav class="index-nav">
+        <div class="close">&#10005;</div>
+        <ul class="ul-index">
+          <li class="li-index" onclick="scrollto('home');">
+            <a href="#home" class="a-index">Home</a>
+          </li>
+          <li class="li-index" onclick="scrollto('about');">
+            <a href="#about" class="a-index">About</a>
+          </li>
+          <li class="li-index" onclick="scrollto('contact');">
+            <a href="#contact" class="a-index">Contact</a>
+          </li>
+          <li class="li-index" onclick="scrollto('portfolio');">
+            <a href="#portfolio" class="a-index">Portfolio</a>
+          </li>
+          <li class="li-index" onclick="scrollto('case');">
+            <a href="#case" class="a-index">Cases</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="index-main">
+        <img src="img/banner.png" alt="" class="main-img" />
+      </main>
+    </header>
+    <section id="home"></section>
+    <section id="about">
+      <p class="title">About</p>
+      <article class="about">
+        <p class="index-about">
+          I am a full stack developer. I am fluent in HTML, CSS, JavaScript, PHP
+          and many other programing languages and frameworks.
+        </p>
+      </article>
+    </section>
+    <section id="contact">
+      <p class="title">Contact</p>
+      <article class="contact">
+        <p class="brief">
+          Please feel free to reach out if you like what you see.
+        </p>
+        <p class="phone">Phone: (786) 359-6689</p>
+        <p class="email">E-mail: jorge.artaza22@gmail.com</p>
+      </article>
+    </section>
+    <section id="portfolio">
+      <p>Portfolio</p>
+    </section>
+    <section id="case">
+      <p>Cases</p>
+    </section>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/main.js"></script>
+</html>
